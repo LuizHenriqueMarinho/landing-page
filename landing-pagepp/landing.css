@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    position: relative;
+    /*só pra fixar o footer na base*/
+  }
+
+  .container
+  {
+    display: flex;
+    width: 100vw;
+  }
+
+  .img-body
+  {
+    padding: 80px 0px 0px 0px;
+    width: 100vw;
+    height: auto;
+  }
+
+  header{
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 80px;
+    align-items: center;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+  }
+
+  .logo
+  {
+    padding: 0px 10px 0px 20px;
+    height: 80px;
+    width: auto;
+  }
+
+  .list-header
+  {
+    display:flex;
+    flex-grow: 0.5;
+    padding: 20px 20px 20px 20px; 
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .inblock
+  {
+    display:inline-block
+  }
+
+  .inblock:hover
+  {
+    font-size: 30px;
+
+  }
+
+  .login
+  {
+    padding: 20px;
+  }
+
+  /*texto e imagem no body*/
+  .imagemDeFundo1{
+    display: flex;
+    flex-direction: column;
+    background-image: url("./midia/linda-garota-vestindo-camiseta-laranja-sorrindo-de-forma-positiva-e-feliz-apontando-com-o-dedo-para-o-lado-em-pe-sobre-um-fundo-laranja-isolado_141793-24589.png");
+    background-size: 100vw auto;
+    width: 100vw;
+    height: 110vh;
+    }
+
+    .p1-section1
+    {
+        padding: 120px 20px 20px 20px;
+        color: white;
+        font-size: 2.5vw;
+    }
+
+    .p2-section1
+    {
+        padding: 0px 20px 0px 20px;
+        color: white;
+        font-size: 2vw;
+    }
+
+    .seguranca
+    {
+      display:grid;
+      width: 100vw;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .div-p-seg
+    {
+      display:grid;
+      width: 50vw;
+      height: 88vh;
+      grid-template-rows: 1fr 1fr;
+      justify-items: center;
+      align-items: center;
+    }
+
+    .p-seg-titulo
+    {
+      padding: 200px 150px 10px 150px;
+      justify-self: center;
+      align-self: center;
+      font-size: 3vw;
+      color: orange;
+    }
+    .p-seg
+    {
+      padding: 10px 150px 200px 150px;
+      justify-self: center;
+      align-self: center;
+      font-size: 2vw;
+      color: black;
+    }
+    .imagemDeFundo2{
+        background-image: url("./midia/20200929-Protecao-dados-seguranca-digital-v3.png");
+        background-size: 50vw auto;
+        width: 50vw;
+        height: 88vh;
+    }
+
+    a:hover
+    {
+      font-size: 2.1vw;
+    }
+
+    .imagemDeFundo3{
+      background-image: url("./midia/banco-móvel-retrato-de-morena-alegre-segurando-dinheiro-e-telefone-celular-fotografia-estúdio-interior-isolada-em-fundo-laranja-164125335.jpg");
+      background-size: 50vw auto;
+      width: 50vw;
+      height: 70vh;
+  }
+
+  .div-rende
+  {
+    display:grid;
+    width: 50vw;
+    height: 70vh;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .rende
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .p-rende
+  {
+    padding: 100px 150px 10px 150px;
+    justify-self: center;
+    align-self: center;
+    font-size: 3vw;
+    color: orange;
+  }
+
+  .p-compare
+  {
+    padding: 10px 150px 200px 150px;
+    justify-self: center;
+    align-self: center;
+    font-size: 2vw;
+    color: black;
+  }
+
+  /**/
+
+  .imagemDeFundo4{
+    background-image: url("./midia/cartao-de-credito-para-mei-0-110904224_m.jpg");
+    background-size: 50vw auto;
+    width: 50vw;
+    height: 85vh;
+}
+
+.cartao
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.div-cartao
+{
+  display:grid;
+  width: 50vw;
+  height: 85vh;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.p-cartao
+{
+  padding: 100px 100px 10px 100px;
+  justify-self: center;
+  align-self: center;
+  font-size: 3vw;
+  color: orange;
+}
+
+.p-adquira
+{
+  padding: 10px 150px 200px 15px;
+  justify-self: center;
+  align-self: center;
+  font-size: 2vw;
+  color: black;
+}
+
+  /* footer */
+  footer {
+    display: grid;
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    color: orange;
+    width: 100%;
+    /* padding: 20px; */
+    align-items: center;
+    justify-items: center;
+    font-size: 3vh;
+    height: 15vh;
+  }
+  /* para as imagens no footer*/
+.imagem-insta {
+  height: 5vh;
+  width: auto;
+}
+
+.imagem-linkedin {
+  height: 5.2vh;
+  width: auto;
+}
+
+.imagem-git {
+  height: 5vh;
+  width: auto;
+}
+
+.imagem-insta:hover {
+  height: 6vh;
+  width: auto;
+}
+
+.imagem-linkedin:hover {
+  height: 6.2vh;
+  width: auto;
+}
+
+.imagem-git:hover {
+  height: 6.2vh;
+  width: auto;
+}
