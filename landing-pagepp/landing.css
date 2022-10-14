@@ -74,7 +74,9 @@
     display: flex;
     flex-direction: column;
     background-image: url("./midia/linda-garota-vestindo-camiseta-laranja-sorrindo-de-forma-positiva-e-feliz-apontando-com-o-dedo-para-o-lado-em-pe-sobre-um-fundo-laranja-isolado_141793-24589.png");
-    background-size: 100vw auto;
+    background-repeat: no-repeat;
+    background-size: 1000px auto;
+    background-position: top center;
     width: 100vw;
     height: 110vh;
     }
